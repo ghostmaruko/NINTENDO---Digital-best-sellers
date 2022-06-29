@@ -6,6 +6,14 @@
     flex-wrap: wrap;
 }
 
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+
+.hoverflow {
+    overflow-x: hidden;
+}
+
 .flex-column {
     flex-direction: column;
 }
