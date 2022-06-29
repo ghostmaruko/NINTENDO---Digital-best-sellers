@@ -79,10 +79,11 @@
 
 /*-------------CONTAINER CARDS------------*/
 .card-container {
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     position: relative;
     width: 97%;
     padding: 15px 15px 40px 15px;
+    position: relative;
 }
 
 /*-------------SINGLE CARD------------*/
@@ -189,4 +190,48 @@
 .heart-outline:hover {
     transform: scale(1.1);
     transition: all ease 500ms;
+}
+
+/*--------------RESPONSIVE-----------------*/
+
+@media(max-width:1200px) {
+    .digital-store-section {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .card-container {
+        position: initial;
+    }
+}
+
+@media(max-width:400px) {
+
+    .title-up {
+        flex-direction: column;
+    }
+
+    .title-card {
+        width: fit-content;
+        font-size: 24px;
+        border-right: none;
+    }
+
+    .title-link {
+        width: fit-content;
+        font-size: 13px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .card {
+        transform: scale(0.95);
+    }
+}
+
+@media(max-width:320px) {
+    .bottone {
+        display: none;
+    }
 }
