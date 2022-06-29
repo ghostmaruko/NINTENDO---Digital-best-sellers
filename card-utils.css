@@ -1,0 +1,27 @@
+.d-flex {
+    display: flex
+}
+
+.flex-wr {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.bold {
+    font-weight: 700;
+}

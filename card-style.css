@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "museo";
+    src: url(./font/MuseoSansCyrl-300.woff) format('woff');
+}
+
+@font-face {
+    font-family: "museo bold";
+    src: url(./font/MuseoSansCyrl-500.woff) format('woff');
+}
+
+* {
+    font-family: 'museo', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(72, 72, 72);
+    font-size: 16px;
+}
+
+.store-section {
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 15px 40px 15px;
+}
+
+.card-section {
+    gap: 1rem;
+    /* max-width: 1100px; */
+    align-items: flex-end;
+}
+
+.bottone {
+    width: 65px;
+    height: 480px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background-color: rgb(83, 81, 81, 0.274);
+    ;
+    /* font-size: px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card-container:hover .bottone {
+    color: #fff;
+    background-color: rgb(83, 81, 81, 0.274);
+}
+
+.bottone>i {
+    color: #fff;
+    font-size: 80px;
+}
+
+.card-container>.bottone:hover {
+    cursor: pointer;
+    font-size: 5rem;
+    transition-duration: 0.1s;
+    background-color: rgba(70, 66, 66, 0.774);
+}
+
+
+.title-up {
+    width: 100%;
+    font-weight: 900;
+}
+
+.title-card {
+    font-size: 1.75rem;
+    border-right: 1px solid rgb(218, 218, 218);
+    padding-right: 1rem;
+    margin-bottom: 0px;
+    flex-direction: row;
+}
+
+.title-link {
+    color: rgb(230, 0, 18);
+    text-decoration: none;
+    margin-top: 30px;
+    border-bottom: 2px solid rgb(230, 0, 18);
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+/*-------------CONTAINER CARDS------------*/
+.card-container {
+    /*  margin-top: 50px;
+    margin-left: 2rem; */
+    border: 2px solid #000;
+    position: relative;
+    width: 97%;
+    padding: 15px 15px 40px 15px;
+}
+
+/*-------------SINGLE CARD------------*/
+.card {
+    /* flex: 0 1 calc(25% - 1em); */
+    flex: 1;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 0.25rem;
+    max-width: 16.375rem;
+    margin-right: 1rem;
+}
+
+/*-------------CARD TITLE - NEW ------------*/
+.card-title {
+    color: #fff;
+    background-color: rgb(230, 0, 18);
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 6px;
+    margin: 0;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    cursor: pointer;
+}
+
+/*------------- TITLE GAME ------------*/
+.title-game {
+    color: rgb(72, 72, 72);
+    font-weight: 700;
+    justify-content: center;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.card-title-game {
+    /* padding: 15px 15px 0 15px; */
+    cursor: pointer;
+}
+
+.card-title-game .title-game:hover {
+    color: rgb(230, 0, 18);
+}
+
+/*-------------CARD-IMG------------*/
+.card-img {
+    background: #000;
+    cursor: pointer;
+    height: 9rem;
+    display: block;
+}
+
+.card-img-game {
+    width: 16.2rem;
+}
+
+.card-img-game:hover {
+    background-color: black;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+    -webkit-transition: opacity .15s ease-in-out;
+    -moz-transition: opactiy .15s ease-in-out;
+    -ms-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+}
+
+/*-------------FOOTER------------*/
+.footer {
+    margin-left: 18px;
+}
+
+.footer-price {
+    margin-left: 18px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.footer-title {
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.segno {
+    height: 1rem;
+    margin-right: 0.375rem;
+    background-color: rgb(230, 0, 18);
+    width: 2px;
+}
+
+.footer-container-heart svg {
+    height: 3rem;
+    width: 3rem;
+}
+
+.heart-outline {
+    color: rgb(230, 0, 18);
+    font-size: 2rem;
+}
+
+.heart-outline:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+@media()
